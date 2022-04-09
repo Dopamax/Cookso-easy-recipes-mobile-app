@@ -1,0 +1,37 @@
+.text-century{
+    font-family: 'Century Gothic';
+}
+
+
+.menu-item{
+    color:black;
+    font-family: 'normal serif';
+    border-bottom: 1px solid #fff;
+}
+
+.menu-item:hover{
+    color:black;
+    --ion-background-color:white;
+    font-family: 'Century Gothic';
+    font-size: x-large;
+}
+
+.bg-menu{
+    --ion-background-color:#fdfffe;
+}
+
+.logo-menu{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo-p{
+    padding: 10px;
+    border-bottom: 0px solid black;
+}
+
+ion-thumbnail ion-img{
+    border-radius: 30px;
+}

@@ -1,0 +1,21 @@
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-img class="logo-p" src="assets/cover.png">
+  </ion-img>
+<ion-content class="bg-menu">
+  <ion-list>
+    <ion-item class="menu-item" routerLink="/home">
+     <ion-icon slot="start" name="home"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-item>
+  </ion-list>
+    <ion-list *ngFor="let category of list_categories">
+      <ion-item class="menu-item" routerLink="/show-one-category/{{category[0]}}">
+        <ion-thumbnail shape="round" slot="start">
+        <ion-img src="{{category[2]}}"></ion-img>
+      </ion-thumbnail>
+        <ion-label>{{category[1]}}</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>
+</ion-menu>
+

@@ -1,0 +1,6 @@
+{
+	"appId": "med.devbinary.cookso",
+	"appName": "cooking-recipes-ionic",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

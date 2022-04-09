@@ -1,0 +1,75 @@
+.bg-color{
+    --background: linear-gradient(-45deg, #18c289, #e9f812);
+    background-size: 500% 500%;
+    animation: gradient 9s ease infinite;
+    color:white;
+    font-family: 'Century Gothic';
+  }
+
+img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+.title{
+  position: relative;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  background-color: #2a2a2c;
+  align-items: center;
+  top:-30px
+}
+
+.ingredients{
+  position: relative;
+  top:-38px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.method{
+  position: relative;
+  top:-38px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.segment-row{
+  position: relative;
+  top:-38px;
+}
+
+.properties{
+  position: relative;
+  top: -38px;
+  border-radius: 18px;
+  margin-inline: 20px;
+  box-shadow: 0px 0px 3px #000;
+  padding: 10px;
+}
+
+.properties ion-row ion-col ion-row ion-col ion-icon{
+ font-size: 64px;
+}
+
+.properties ion-row ion-col ion-row ion-col{
+  position: relative;
+  left: 0;
+  align-items: center;
+}
+.properties ion-row ion-col{
+  position: relative;
+  align-items: center;
+  left:9%;
+}
+
+.icon-serves{
+  width: 70px;
+}
+.icon-difficulty{
+  width: 70px;
+}

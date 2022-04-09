@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cookso</string>
+    <string name="title_activity_main">Cookso</string>
+    <string name="package_name">med.devbinary.cookso</string>
+    <string name="custom_url_scheme">med.devbinary.cookso</string>
+</resources>

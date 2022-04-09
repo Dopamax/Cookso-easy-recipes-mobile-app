@@ -1,0 +1,7 @@
+{
+  "name": "cookso-cooking-recipes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
